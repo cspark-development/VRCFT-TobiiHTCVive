@@ -1,0 +1,11 @@
+* VRChat Eyetracking support with Tobii HTC Vive Devkit
+
+This module provides users with the Tobii HTC Vive Devkit with eyetracking support, supporting VRCFT v5.
+
+** Setup
+
+Please refer to step 1 and 2 here : https://developer.tobii.com/xr/develop/xr-sdk/getting-started/tobii-htc-dev-kit/
+
+That will take you through the correct driver installation and inital callibration procedure for your headset.
+
+Once completed, download the latest zipped module in the Releases and install into VRCFT v5 as normal.
