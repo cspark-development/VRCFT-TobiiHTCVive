@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRCFT-TobiiHTCVive", "VRCFT-TobiiHTCVive\VRCFT-TobiiHTCVive.csproj", "{90A5BE75-DE43-43C9-9AB1-7B8AC70430F4}"
 EndProject
+#Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VRCFaceTracking", "VRCFaceTracking", "{BD981553-6DC0-48E9-BF59-FD81C922E3D3}"
+#EndProject
+#Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRCFaceTracking.Core", "VRCFaceTracking\VRCFaceTracking.Core\VRCFaceTracking.Core.csproj", "{F4172B82-849A-429F-BB70-F9CE1C254592}"
+#EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{90A5BE75-DE43-43C9-9AB1-7B8AC70430F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90A5BE75-DE43-43C9-9AB1-7B8AC70430F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90A5BE75-DE43-43C9-9AB1-7B8AC70430F4}.Release|Any CPU.Build.0 = Release|Any CPU
+#		{F4172B82-849A-429F-BB70-F9CE1C254592}.Debug|Any CPU.ActiveCfg = Debug|x64
+#		{F4172B82-849A-429F-BB70-F9CE1C254592}.Debug|Any CPU.Build.0 = Debug|x64
+#		{F4172B82-849A-429F-BB70-F9CE1C254592}.Release|Any CPU.ActiveCfg = Release|x64
+#		{F4172B82-849A-429F-BB70-F9CE1C254592}.Release|Any CPU.Build.0 = Release|x64
 	EndGlobalSection
+#	GlobalSection(NestedProjects) = preSolution
+#		{F4172B82-849A-429F-BB70-F9CE1C254592} = {BD981553-6DC0-48E9-BF59-FD81C922E3D3}
+#	EndGlobalSection
 EndGlobal
