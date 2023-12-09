@@ -21,7 +21,11 @@
 
   <ItemGroup>
     <AdditionalFiles Include="tobii_stream_engine.dll">
-      <CopyToOutputDirectory>Libs/Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <HintPath>Libs/tobii_stream_engine.dll</HintPath>
+    </AdditionalFiles>
+    <AdditionalFiles Include="module.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AdditionalFiles>
   </ItemGroup>
 
